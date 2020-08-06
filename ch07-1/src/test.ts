@@ -9,7 +9,7 @@ readFile('../package.json', (error: any, buffer: Buffer) => {
     console.log(buffer.toString());
 });
 
-const readFilePromise = (filename: string): Promise<string> =>
+export const readFilePromise = (filename: string): Promise<string> =>
     new Promise<string>((resolve, reject) => {
         readFile(filename, (error: any, buffer: Buffer) => {
             if (error)
