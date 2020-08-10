@@ -4,10 +4,15 @@
   "description": "typescript study",
   "main": "index.js",
   "dependencies": {
-    "typescript": "^3.9.7",
-    "ts-node": "^8.10.2"
+    "chance": "^1.1.6",
+    "ramda": "^0.27.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/chance": "^1.1.0",
+    "@types/ramda": "^0.27.14"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
