@@ -15,5 +15,3 @@ export const makeILocation = (country: string, city: string, address: string, co
 export const makeRandomILocation = (): ILocation => makeILocation(c.country(), c.city(), c.address(), makeRandomICoordinates());
 
 const location: ILocation = makeRandomILocation();
-
-console.log(location);

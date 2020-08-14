@@ -12,6 +12,3 @@ const c = new Chance;
 export const makeRandomICoordinates = (): ICoordinates => makeICoordinates(c.latitude(), c.longitude());
 
 const coordinates: ICoordinates = makeRandomICoordinates();
-
-console.log(coordinates);
-console.log(c.latitude(), c.longitude());

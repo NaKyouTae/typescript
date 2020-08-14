@@ -15,5 +15,3 @@ export const makeIPerson = (name: string, age: number, title: string, location: 
 export const makeRandomIPerson = (): IPerson => makeIPerson(c.name(), c.age(), c.profession(), makeRandomILocation());
 
 const person: IPerson = makeRandomIPerson();
-
-console.log(person);
