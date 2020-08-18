@@ -1,0 +1,6 @@
+import { Identity } from '../classes/Identity';
+
+const add = (x: any) => (y: any) => x + y;
+const id: any = new Identity(add);
+
+console.log(id.ap(1).ap(2).value());
